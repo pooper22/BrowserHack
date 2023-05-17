@@ -1353,7 +1353,7 @@ goodfruit:
 		nmcpy(pl_fruit, op, PL_FSIZ);
 	/* OBJ_NAME(objects[SLIME_MOLD]) won't work after initialization */
 		if (!*pl_fruit)
-		    nmcpy(pl_fruit, "slime mold", PL_FSIZ);
+		    nmcpy(pl_fruit, "PENIS", PL_FSIZ);
 		if (!initial)
 		    (void)fruitadd(pl_fruit);
 		/* If initial, then initoptions is allowed to do it instead
